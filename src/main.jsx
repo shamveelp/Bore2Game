@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { Route, Routes } from 'react-router-dom'
 import TicTacToe from './games/tic-tac-toe/index.jsx'
 import SudokuPro from './games/sudoku-pro/index.jsx'
@@ -10,7 +11,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/tic-tac-toe" element={<TicTacToe />} />
@@ -19,6 +20,6 @@ createRoot(document.getElementById('root')).render(
       {/* Add more routes as needed */}
     </Routes>
     {/* <App /> */}
-  </BrowserRouter>
+  </HashRouter>
   </StrictMode>,
 )
