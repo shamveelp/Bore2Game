@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+  background: linear-gradient(to bottom right, #4f46e5, #a855f7, #ec4899);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes draw-line {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.animate-draw-line {
+  animation: draw-line 0.5s ease-in-out forwards;
+}
