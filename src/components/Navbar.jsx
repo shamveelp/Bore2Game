@@ -43,7 +43,7 @@ const Navbar = ({ darkMode, toggleTheme }) => {
                 : 'bg-gray-300 focus:ring-offset-white'
             }`}
           >
-            <div className={`absolute top-0.5 left-0.5 w-6 h-6 rounded-full transition-all duration-500 flex items-center justify-center ${
+            <div className={`absolute top-0.5 left-0.5 w-6 h-6 rounded-full transition-all duration-500 flex items-center justify-center cursor-pointer ${
               darkMode 
                 ? 'transform translate-x-7 bg-yellow-300' 
                 : 'transform translate-x-0 bg-white'
