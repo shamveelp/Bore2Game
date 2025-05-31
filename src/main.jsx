@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import TicTacToe from './games/tic-tac-toe/index.jsx'
 import SudokuPro from './games/sudoku-pro/index.jsx'
 import Snake from './games/snake/index.jsx'
+import FlappyBirdGame from './games/Flappy-Bird/index.jsx' 
 import './index.css'
 import App from './App.jsx'
 
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/tic-tac-toe" element={<TicTacToe />} />
       <Route path="/sudoku-pro" element={<SudokuPro />} />
       <Route path="/snake" element={<Snake />} />
+      <Route path="/flappy-bird" element={<FlappyBirdGame />} />
       {/* Add more routes as needed */}
     </Routes>
     {/* <App /> */}

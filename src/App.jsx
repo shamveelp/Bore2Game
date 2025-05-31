@@ -30,6 +30,14 @@ const games = [
     description: "Eat & Grow!",
     link: "/snake",
   },
+  {
+    id: 3,
+    name: "Flappy Bird",
+    image: "https://res.cloudinary.com/drmroxs00/image/upload/v1748675103/flappy-bird-screenshot_rungr8.avif",
+    rating: 4.6,
+    description: "Tap & Fly",
+    link: "/flappy-bird",
+  },
 ]
 
 function App() {
